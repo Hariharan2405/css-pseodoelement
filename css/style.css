@@ -1,0 +1,30 @@
+/*pseudoelement selectors*/
+/*firstline*/
+p::first-line{
+	color:red;
+	font-size:20px;
+	background-color:black;
+}
+/*firstletter*/
+p::first-letter{
+	color:green;
+	font-size:50px;
+}
+/*befor*/
+h1::before{
+	content:url(../image/emg.png);
+}
+/*after*/
+h1::after{
+	content:url(../image/smiley.png);
+}
+/*marker*/
+li::marker{
+	color:violet;
+	font-size:30px;
+}
+/*selection*/
+::selection{
+	color:blue;
+	background-color:pink;
+}
